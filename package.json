@@ -1,0 +1,28 @@
+{
+  "name": "pocket-budget-back",
+  "version": "1.0.0",
+  "description": "This project is needed to easily and quickly manage your budget.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "budget",
+    "pocket-budget"
+  ],
+  "author": "Smirnov Ivan <the.ivan.smirnov@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.14",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
